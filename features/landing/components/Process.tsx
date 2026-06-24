@@ -52,7 +52,7 @@ export function Process() {
             <h2 className="font-serif text-[36px] sm:text-[54px] md:text-[72px] leading-[0.95] font-normal uppercase">
               O problema <br />
               não é a falta <br />
-              de <span className="font-sans font-bold tracking-tighter text-stroke text-white">tecnologia</span>. <br />
+              de <span className="font-sans font-bold tracking-tighter text-electric-blue">tecnologia</span>. <br />
               É a falta de <br />
               <span className="italic text-electric-blue">conexão</span>.
             </h2>

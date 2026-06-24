@@ -72,7 +72,7 @@ export function Services() {
 
                 <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-6 items-start z-10">
                   {/* Number & Name */}
-                  <div className="lg:col-span-4 flex items-baseline gap-6">
+                  <div className="lg:col-span-5 flex items-baseline gap-6">
                     <span className="font-serif text-xl sm:text-2xl font-light text-off-black/40 dark:text-white/40 font-mono">
                       {srv.num}
                     </span>
@@ -87,7 +87,7 @@ export function Services() {
                   </div>
 
                   {/* Description */}
-                  <div className="lg:col-span-5 pt-2 lg:pt-0">
+                  <div className="lg:col-span-4 pt-2 lg:pt-0">
                     <p className="font-sans text-sm md:text-base leading-relaxed text-off-black/60 dark:text-white/70">
                       {srv.description}
                     </p>

@@ -43,7 +43,7 @@ export function ContactCTA() {
             Seus concorrentes <br />
             ainda estão <br />
             respondendo <br />
-            <span className="font-sans font-bold tracking-tighter text-stroke text-white">manualmente</span>.
+            <span className="font-sans font-bold tracking-tighter text-electric-blue">manualmente</span>.
           </h2>
 
           <p className="font-sans text-sm md:text-base leading-relaxed text-off-white/60 max-w-lg">

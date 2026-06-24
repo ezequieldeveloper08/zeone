@@ -13,7 +13,7 @@ import { Footer } from "@/features/landing/components/Footer"
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-off-white text-off-black transition-colors duration-300">
+    <div className="min-h-screen bg-black text-off-black transition-colors duration-300">
       <Navbar />
       <main>
         <Hero />

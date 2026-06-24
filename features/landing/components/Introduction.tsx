@@ -18,7 +18,7 @@ export function Introduction() {
               Seu negócio <br />
               está <span className="italic text-electric-blue">crescendo</span>, <br />
               ou apenas ficando <br />
-              mais <span className="font-sans font-bold tracking-tighter text-stroke text-off-black dark:text-white">ocupado</span>?
+              mais <span className="font-sans font-bold tracking-tighter text-electric-blue">ocupado</span>?
             </h2>
           </div>
           <div className="lg:col-span-4 lg:pt-16">
