@@ -1,19 +1,33 @@
-import { Button } from "@/components/ui/button"
+import { Navbar } from "@/features/landing/components/Navbar"
+import { Hero } from "@/features/landing/components/Hero"
+import { Introduction } from "@/features/landing/components/Introduction"
+import { Services } from "@/features/landing/components/Services"
+import { WhatsAppAutomation } from "@/features/landing/components/WhatsAppAutomation"
+import { AiAutomation } from "@/features/landing/components/AiAutomation"
+import { Process } from "@/features/landing/components/Process"
+import { CaseStudies } from "@/features/landing/components/CaseStudies"
+import { Testimonials } from "@/features/landing/components/Testimonials"
+import { Faq } from "@/features/landing/components/Faq"
+import { ContactCTA } from "@/features/landing/components/ContactCTA"
+import { Footer } from "@/features/landing/components/Footer"
 
 export default function Page() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
+    <div className="min-h-screen bg-off-white text-off-black transition-colors duration-300">
+      <Navbar />
+      <main>
+        <Hero />
+        <Introduction />
+        <Services />
+        <WhatsAppAutomation />
+        <AiAutomation />
+        <Process />
+        <CaseStudies />
+        <Testimonials />
+        <Faq />
+        <ContactCTA />
+      </main>
+      <Footer />
     </div>
   )
 }
